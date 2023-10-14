@@ -1,6 +1,75 @@
+<!DOCTYPE html>
 <html>
- <head><title>Hello, World!</title></head>
- <body>
- Hello, World!
- </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Course Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .syllabus {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Course</h1>
+        <div class="syllabus">
+            <h2>Syllabus - Page 1</h2>
+            <p>This is the syllabus for our course. Click on the links to access course materials.</p>
+            <ul>
+                <li><a href="#week1">Week 1</a></li>
+                <li><a href="#week2">Week 2</a></li>
+                <!-- Add more weeks as needed -->
+            </ul>
+        </div>
+
+        <h2>Course Schedule</h2>
+        <table>
+            <tr>
+                <th>Week</th>
+                <th>Topic</th>
+                <th>Materials</th>
+            </tr>
+            <tr>
+                <td id="week1">Week 1</td>
+                <td>Introduction to HTML and CSS</td>
+                <td><a href="week1_materials.html">Materials</a></td>
+            </tr>
+            <tr>
+                <td id="week2">Week 2</td>
+                <td>Web Page Structure</td>
+                <td><a href="week2_materials.html">Materials</a></td>
+            </tr>
+            <!-- Add more weeks as needed -->
+        </table>
+    </div>
+</body>
 </html>
